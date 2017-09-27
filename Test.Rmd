@@ -1,6 +1,6 @@
 ---
 title: "Getting and Cleaning Data Week 4 - Assignment"
-output: github_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
