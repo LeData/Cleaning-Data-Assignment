@@ -6,7 +6,7 @@ The Source
 
 This data is taken from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#), a publicly acessible dataset available on the UCI Machine Learning Repository. It was collected by Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2).
 
-For more information, see **'Code\_Book.md'**
+For more information, see [**Code\_Book.md**](https://github.com/Mahrard/Cleaning-Data-Assignment/blob/master/Code_Book.md)
 
 The Work
 --------
