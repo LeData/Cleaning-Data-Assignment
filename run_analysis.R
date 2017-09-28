@@ -26,6 +26,13 @@ Data_table<-rbind(read.table("UCI HAR Dataset/train/x_train.txt",col.names = nam
 All_table<-cbind(Subj_table,Act_table,Data_table)
 Avg_table<-All_table%>%group_by(activity,subjects)%>%summarize_all(mean)
 
+# Exporting the data
+write.csv(All_table,"All_means_and_sd.csv",row.names = FALSE)
+write.csv(Avg_table,"Avg_by_activity.csv",row.names = FALSE)
+
+# Adding a txt file for the assignment submission
+write.table(Avg_table,"Avg_by_activity.txt",row.names = FALSE)
+
 # Cleaning up
 rm(Subj_table,Act_table,Data_table)
 
